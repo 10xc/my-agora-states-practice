@@ -2,7 +2,7 @@ import { Form, Discussions } from "./components";
 import { useEffect, useState } from "react";
 
 function App() {
-  const domain = "http://localhost:3001";
+  const domain = "http://localhost:80";
   const [discussions, setDiscussions] = useState([]);
 
   useEffect(() => {
